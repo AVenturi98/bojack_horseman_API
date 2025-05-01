@@ -13,7 +13,7 @@ export default function Home() {
     }, [])
 
     return (
-        <div className='grid grid-cols-3 gap-5'>
+        <div className='m-12 grid grid-cols-3 gap-5'>
             {persons.map(e =>
                 <Card key={e.id} person={e} />
             )}
